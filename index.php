@@ -251,33 +251,35 @@ and open the template in the editor.
                                 </div>
                             </div>
                         </div>
-                        <div class="bottom3Box col-12">
-                            <div class="part col-4">
-                                <h2>some heading</h2>
-                                <p>
-                                    magna aliquam erat volutpat. Ut wisi enim Lorem ipsum dolor sit veniam, quis
-                                </p>
+                        <section id="grid-layout3" class="col-12 no-gutters">
+                            <div class="grid-container3 bottom3Box bg-danger py-5">
+                                <div class="grid-child-container">
+                                    <h2 class="heading">some heading</h2>
+                                    <p class="infos">
+                                        magna aliquam erat volutpat. Ut wisi enim Lorem ipsum dolor sit veniam, quis
+                                    </p>
+                                </div>
+                                <div class="grid-child-container2">
+                                    <h2 class="heading">some heading3</h2>
+                                    <p class="infos">
+                                        magna aliquam erat volutpat. Ut wisi enim Lorem ipsum dolor sit veniam, quis
+                                    </p>
+                                </div>
+                                <div class="grid-child-container3">
+                                    <h2 class="heading">some heading3</h2>
+                                    <p class="social">
+                                        <span class="fb">a</span>
+                                        <span class="bh">b</span>
+                                        <span class="gp">c</span>
+                                        <span class="tw">d</span>
+                                        <span class="lk">e</span>
+                                    </p>
+                                    <p class="infos">
+                                        magna aliquam erat volutpat. Ut wisi enim Lorem ipsum dolor sit veniam, quis
+                                    </p>
+                                </div>
                             </div>
-                            <div class="part col-4">
-                                <h2>some heading3</h2>
-                                <p>
-                                    magna aliquam erat volutpat. Ut wisi enim Lorem ipsum dolor sit veniam, quis
-                                </p>
-                            </div>
-                            <div class="part col-4">
-                                <h2>some heading3</h2>
-                                <p>
-                                    magna aliquam erat volutpat. Ut wisi enim Lorem ipsum dolor sit veniam, quis
-                                </p>
-                                <p>
-                                    <span class="fb"></span>
-                                    <span class="bh"></span>
-                                    <span class="gp"></span>
-                                    <span class="tw"></span>
-                                    <span class="lk"></span>
-                                </p>
-                            </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
             </section>

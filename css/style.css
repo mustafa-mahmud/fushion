@@ -431,13 +431,70 @@ nav ul li{
     top: 41px;
     left: 50%;
     transform: translateX(-50%);
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 .first{}
 .last{}
 .email{}
 
-
+#grid-layout3{
+    background: chocolate;
+}
+.grid-container3{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
+    box-sizing: border-box;
+    grid-gap: 10px;
+}
+.grid-container3 > div{
+    background: olive;
+}
+.grid-child-container{
+    display: grid;
+    grid-template-areas:
+        "h i i i i i i i i i i i"
+        "h i i i i i i i i i i i";
+    grid-gap: 5px;
+}
+.grid-child-container .heading{
+    grid-area: h;
+    transform: rotate(-90deg);
+}
+.grid-child-container .infos{
+    grid-area: i;
+}
+.grid-child-container2{
+    display: grid;
+    grid-template-areas:
+        "h h h h h h h h h h h h"
+        "i i i i i i i i i i i i";
+    grid-gap: 5px;
+}
+.grid-child-container2 .heading{
+    grid-area: h;
+}
+.grid-child-container2 .infos{
+    grid-area: i;
+}
+.grid-child-container3{
+    display: grid;
+    grid-template-areas:
+        "h h h h h h h h h h h h"
+        "s i i i i i i i i i i i"
+        "s i i i i i i i i i i i";
+    grid-gap: 5px;
+}
+.grid-child-container3 .heading{
+    grid-area: h;
+}
+.grid-child-container3 .social{
+    grid-area: s;
+    transform: rotate(-90deg);
+}
+.grid-child-container3 .infos{
+    grid-area: i;
+}
 .bottom3Box{}
 .part{}
 .fb{}
