@@ -1,0 +1,448 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 5, 2018, 7:17:33 AM
+    Author     : mithu
+*/
+html,body{
+}
+#mainBody{
+    -webkit-box-shadow: 0px 3px 23px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 23px 10px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 23px 10px rgba(0,0,0,0.75);
+}
+
+/*header*/
+.logo{}
+.logo p{}
+.logo span{
+    display: inline-block !important;
+    padding: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+/*text slider with nav*/
+#sliderNav{
+    background-image: url("../images/sliderNav2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sliderNav::after{
+}
+.textSliderNav{}
+.textSlider{
+    border: 1px solid black;
+}
+.textSlider p{
+    line-height: 40px;
+    margin: 0 !important;
+    font-size: 22px;
+    font-family: 'Courgette', cursive;
+    color: black;
+}
+.curve{
+    font-size: 40px;
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+}
+span.slider{
+    font-size: 25px;
+}
+nav ul li{
+    text-transform: capitalize;
+    color: black;
+    font-family: 'Faster One', cursive !important;
+    display: inline-block;
+    padding: 5px;
+}
+.copyright{
+    bottom: 0;
+    right: 0;
+    font-family: 'Suravaram', serif;
+    padding: 5px;
+    color: white !important;
+}
+
+/*progress*/
+#progress{
+    background-color: black;
+}
+.beforeBorder{}
+.beforeBorder::before{
+    display: inline-block;
+    height: 90px;
+    background: chocolate;
+    width: 3px;
+    content: "";
+}
+.beforeBorder p{
+    font-family: 'Rock Salt', cursive;
+    position: relative;
+    z-index: 999;
+}
+.beforeBorder p::before{
+    position: absolute;
+    background: chocolate;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 100%;
+    top: 50%;
+    z-index: -2;
+}
+.beforeBorder p span{
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+.beforeBorder p span::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+}
+.ourHeading{}
+.ourHeading h1{
+    font-size: 22px;
+    font-style: italic;
+    line-height: 40px;
+}
+.threeBox{}
+.strategy{}
+
+/*slider bottom*/
+#sliderBottom{}
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 130px 400px;
+}
+.grid-container > div{
+}
+.sliderBefore{
+    text-align: left;
+    height: 100px;
+}
+.sliderBefore::before{
+    height: 100%;
+    width: 3px;
+    content: "";
+    display: block;
+    background: chocolate;
+}
+.sliderBefore p, .sliderAfter p{
+    font-family: 'Shadows Into Light', cursive;
+}
+.slideDiv{}
+.slideDiv::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -3px;
+    right: -3px;
+    border-color: chocolate;
+    border-style: solid;
+    border-bottom: 3px;
+    border-left: 3px;
+}
+.slideDiv::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: -3px;
+    left: -3px;
+    border-color: chocolate;
+    border-style: solid;
+    border-top: 3px;
+    border-right: 3px;
+}
+.sliderAfter{
+    height: 100px;
+    text-align: left;
+}
+.sliderAfter::after{
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: chocolate;
+    display: block;
+}
+/*sponsor*/
+#sponsor{
+    background: black;
+}
+.beforeBorder{}
+.ourHeading{}
+.sliderSponsor{}
+.identity{
+    background: #343A40;
+}
+.identity span{
+    display: inline-block;
+    padding: 5px;
+    background: black;
+}
+.middleImg{
+    width: 50px;
+    border: 2px solid white;
+}
+.para{
+    line-height: 25px;
+    font-family: 'Suravaram', serif;
+    font-size: 21px;
+}
+.name{
+    padding: 0 3rem;
+    z-index: 2;
+    font-family: 'Petrona', serif;
+}
+.name::before{
+    display: inline-block;
+    background: #343A40;
+    z-index: -1;
+    position: absolute;
+    content: "";
+    top: 0;
+    width: calc(100% - 5rem);
+    height: 100%;
+    left: 0;
+    transform: translateX(2.5rem);
+}
+.name::after{
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 10px; 
+    background: chocolate;
+    z-index: -2;
+}
+.address{
+    font-family: 'Petrona', serif;
+}
+
+/*team*/
+#team{}
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px 200px;
+}
+#team .beforeBorder p span::before{
+    background: #343A40;
+}
+.grid-container2 > div{
+    border-right: 1px solid black;
+    padding: 20px 0;
+}
+.grid-container2 > div:nth-child(4), .grid-container2 > div:nth-child(8){
+    border-right: none;
+}
+.grid-container2 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.grid-container2 hr{
+    background: black;
+}
+.topStyle{
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-template-rows: 50px auto;
+    grid-gap: 5px;
+    position: relative;
+}
+.topStyle::before{
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    content: "";
+    width: 50px;
+    height: 50px;
+    border: 3px solid chocolate;
+    border-right: transparent;
+    border-bottom: transparent;
+}
+.topStyle img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.styleImg{}
+.info{}
+.info span{
+    width: 110px;
+    left: 48px;
+    transform-origin: left top;
+    transform: rotate(90deg);
+    background: chocolate;
+    padding: 5px;
+    padding-bottom: 0;
+    font-style: italic;
+    border-right: 5px solid red;
+}
+.info span{
+    color: black;
+    font-size: 14px;
+}
+.describe{
+    grid-row: span 2; 
+    padding: 0 5px;
+    line-height: 28px;
+    font-size: 14px;
+}
+.span-font{
+    font-family: 'Vollkorn', serif;
+    font-size: 15px;
+    position: relative;
+}
+.span-font::after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 2px;
+    background: white;
+    left: 50%;
+    top: 15px;
+}
+.span-font2{
+    font-family: 'Rokkitt', serif;
+    font-size: 13px;
+    font-style: italic !important;
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+.span-font2::after{
+    display: inline-block;
+    content: "";
+    background: red;
+}
+.first-one{
+    position: relative;
+}
+.rotated{
+    transform: rotate(90deg);
+    /*border-right: 5px solid red;*/
+    width: 140px;
+    position: absolute;
+    top: 50px;
+}
+.second-one{
+    line-height: 25px;
+}
+.styleImg{}
+.roundImgInfo{}
+.bottomStyle{}
+.styleImg{}
+
+/*send data part*/
+#sendData{
+    background: url("../images/email.jpg") no-repeat center center;
+    color: black;
+}
+#sendData .beforeBorder span::before{
+    background: none;
+}
+#sendData .beforeBorder p span{
+    color: black
+}
+.emailPart{
+    height: 500px;
+    background: rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.75);
+}
+/*SVG area for email*/
+#Layer_1{
+    width: 50px !important;
+    height: 300px !important;
+}
+.circle1{
+}
+.circle2{
+    fill: red !important;
+    stroke-opacity: 0;
+}
+.circle3{
+}
+.line1{}
+.line2{}
+.circle4{
+    fill: black !important;
+    stroke-opacity: 0;
+}
+.circle5{
+    fill: black !important;
+    stroke-opacity: 0;
+}
+.text1{
+    fill: white !important;
+}
+.text2{
+    fill: white !important;
+}
+.text3{
+    fill: white !important;
+}
+.create{}
+.already{}
+.email-body{}
+
+
+.main-email-body{}
+.main-email-body input{
+    background: transparent !important;
+    border-bottom: 1px solid gray !important;
+}
+.subValue{
+    top: 45px;
+    transition: all 0.3s linear;
+    color: #DC353D;
+    transition: all 0.3s linear;
+}
+.addTop{
+    top: 0;
+    font-size: 12px;
+    color: white !important;
+    transition: all 0.3s linear;
+}
+.underBorder{
+    width: 0px;
+    height: 2px;
+    background: black;
+    display: inline-block;
+    top: 41px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s linear;
+}
+.first{}
+.last{}
+.email{}
+
+
+.bottom3Box{}
+.part{}
+.fb{}
+.bh{}
+.gp{}
+.tw{}
+.lk{}
+

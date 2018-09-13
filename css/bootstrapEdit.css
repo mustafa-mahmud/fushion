@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2018, 12:13:55 PM
+    Author     : mithu
+*/
+
+.no-gutters {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+/*========BOOTSTRAP PADDING=====*/
+.p-6{
+    padding: 6rem !important;
+}
+.p-7{
+    padding: 7rem !important;
+}
+.p-8{
+    padding: 8rem !important;
+}
+.p-9{
+    padding: 9rem !important;
+}
+.p-10{
+    padding: 10rem !important;
+}
+.px-6{
+    padding: 0 6rem !important;
+}
+.px-7{
+    padding: 0 7rem !important;
+}
+.px-8{
+    padding: 0 8rem !important;
+}
+.px-9{
+    padding: 0 9rem !important;
+}
+.px-10{
+    padding: 0 10rem !important;
+}
+.py-6{
+    padding: 6rem 0 !important;
+}
+.py-7{
+    padding: 7rem 0 !important;
+}
+.py-8{
+    padding: 8rem 0 !important;
+}
+.py-9{
+    padding: 9rem 0 !important;
+}
+.py-10{
+    padding: 10rem 0 !important;
+}
+@media (min-width: 576px) {
+    .p-sm-6{
+        padding: 6rem !important;
+    }
+    .p-sm-7{
+        padding: 7rem !important;
+    }
+    .p-sm-8{
+        padding: 8rem !important;
+    }
+    .p-sm-9{
+        padding: 9rem !important;
+    }
+    .p-sm-10{
+        padding: 10rem !important;
+    }
+    .px-sm-6{
+        padding: 0 6rem !important;
+    }
+    .px-sm-7{
+        padding: 0 7rem !important;
+    }
+    .px-sm-8{
+        padding: 0 8rem !important;
+    }
+    .px-sm-9{
+        padding: 0 9rem !important;
+    }
+    .px-sm-10{
+        padding: 0 10rem !important;
+    }
+    .py-sm-6{
+        padding: 6rem 0 !important;
+    }
+    .py-sm-7{
+        padding: 7rem 0 !important;
+    }
+    .py-sm-8{
+        padding: 8rem 0 !important;
+    }
+    .py-sm-9{
+        padding: 9rem 0 !important;
+    }
+    .py-sm-10{
+        padding: 10rem 0 !important;
+    }
+}
+@media (min-width: 768px) {
+    .p-md-6{
+        padding: 6rem !important;
+    }
+    .p-md-7{
+        padding: 7rem !important;
+    }
+    .p-md-8{
+        padding: 8rem !important;
+    }
+    .p-md-9{
+        padding: 9rem !important;
+    }
+    .p-md-10{
+        padding: 10rem !important;
+    }
+    .px-md-6{
+        padding: 0 6rem !important;
+    }
+    .px-md-7{
+        padding: 0 7rem !important;
+    }
+    .px-md-8{
+        padding: 0 8rem !important;
+    }
+    .px-md-9{
+        padding: 0 9rem !important;
+    }
+    .px-md-10{
+        padding: 0 10rem !important;
+    }
+    .py-md-6{
+        padding: 6rem 0 !important;
+    }
+    .py-md-7{
+        padding: 7rem 0 !important;
+    }
+    .py-md-8{
+        padding: 8rem 0 !important;
+    }
+    .py-md-9{
+        padding: 9rem 0 !important;
+    }
+    .py-md-10{
+        padding: 10rem 0 !important;
+    }
+}
+/*========MEDIA=======*/
+
+@media (max-width: 320px){
+    .myText, .myText2{
+        font-size: 1rem !important;
+    }
+}
+@media (min-width: 321px){
+    .myText{
+        font-size: 1.7rem !important;
+    }
+}
+@media (min-width: 768px){
+    .myText{
+        font-size: 2rem !important;
+    }
+    .myText2{
+        font-size: 1.5rem !important;
+    }
+}
+@media (min-width: 769px){
+    .myText{
+        font-size: 2.5rem !important;
+    }
+}
